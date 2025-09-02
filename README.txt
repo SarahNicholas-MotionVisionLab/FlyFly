@@ -32,6 +32,12 @@ Version History
 4.X Updates
 ------------------------------------------------------------------------------------------
 
+Sarah's changes made 01/09/25
+* Changes made to 
+* Removed cancel button and all associated code as this inclusion of the cancel button lead to the 50th frame being dropped each time a new stimulus was run
+* Incorporated changes made by Matt to include missing line 
+
+
 4.4
 * Added 3 new stimuli: 'Squarewave Grating', 'Sine Grating Background' and 'Sine Wave Background'
 * Changed naming of saved parameter files to make data merging easier
@@ -280,4 +286,5 @@ Rolling image
 * Choose position of patch to use
 * Option to remember offset 
 * Set pre/post stim, pause
+
 
