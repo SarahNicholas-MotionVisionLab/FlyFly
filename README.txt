@@ -33,10 +33,8 @@ Version History
 ------------------------------------------------------------------------------------------
 
 Sarah's changes made 01/09/25
-* Changes made to 
-* Removed cancel button and all associated code as this inclusion of the cancel button lead to the 50th frame being dropped each time a new stimulus was run
-* Incorporated changes made by Matt to include missing line 
-
+* Removed cancel button and associated code from script, as this was causing frame 50 to drop when presenting stimuli.
+* This version also includes the added line suggested by Matt to ensure the background runs when required.
 
 4.4
 * Added 3 new stimuli: 'Squarewave Grating', 'Sine Grating Background' and 'Sine Wave Background'
@@ -286,5 +284,6 @@ Rolling image
 * Choose position of patch to use
 * Option to remember offset 
 * Set pre/post stim, pause
+
 
 
